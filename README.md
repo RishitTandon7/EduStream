@@ -1,177 +1,71 @@
 
-# **EdeStream: Virtual Classroom Management System**
-
-[![EdStream Logo](https://img.shields.io/badge/Project-EdeStream-blue)](https://github.com/YourUsername/EdeStream)
-[![Java Version](https://img.shields.io/badge/Java-11%2B-orange)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-
 ---
 
-## **Overview**
+# 🌟 EduStream 🌟
 
-**EdeStream** is a comprehensive virtual classroom management system designed to streamline the learning experience for both teachers and students. With features that include content uploading, video call integration, and class management, EdeStream empowers educators and students to manage their online learning environments seamlessly.
 
----
+EduStream is a **virtual classroom application** designed to bring teachers and students together in a seamless online learning environment. With features like content uploading, video calls, and easy access to materials, EduStream makes online education both efficient and engaging!
 
-## **Key Features**
+## 🚀 Features
 
-- **Teacher Features**:
-  - Upload educational content to the classroom.
-  - Start video calls with classroom-specific codes.
-  - Upload content and start a video call in one step.
+### For **Teachers**:
+- 📤 **Upload Content**: Share educational materials with students.
+- 🎥 **Start Video Call**: Initiate a video call for your online classes with a classroom code.
+- 📤🎥 **Upload & Start Video Call**: Upload content and start a video call in one go!
 
-- **Student Features**:
-  - View uploaded educational content.
-  - Join video calls using a classroom code.
-  - Access files and participate in live sessions.
+### For **Students**:
+- 📚 **View Uploaded Content**: Browse files uploaded by the teacher.
+- 🎥 **Join Video Call**: Enter the classroom using a provided classroom code to join the video call.
+- 📚🎥 **View Content & Join Video Call**: Access materials and join the call simultaneously!
 
-- **Video Call Integration**: Seamless video call initiation using a Python script.
-- **File Management**: Upload, view, and open content files with ease.
-- **Classroom Management**: Support for multiple classrooms with unique access codes.
+## ⚙️ Setup & Installation
 
----
+### Prerequisites:
+- ✅ **Java 8** or higher
+- ✅ **Python** (for video call functionality)
 
-## **Installation Instructions**
+### Steps to Run:
 
-### **Requirements**
-
-- Java 11 or higher
-- Python (for video call functionality)
-
-### **Setup Steps**
-
-1. **Clone the Repository**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourUsername/EdeStream.git
+   git clone https://github.com/yourusername/EduStream.git
    ```
 
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd EdeStream
-   ```
+2. **Install dependencies**:
+   - Ensure that **Java 8+** and **Python** are installed.
+   - Install required Python packages for the video call feature.
 
-3. **Compile the Java Program**:
-   ```bash
-   javac VirtualClassroom.java
-   ```
-
-4. **Run the Application**:
+3. **Run the Java Application**:
+   - Open a terminal in the project directory.
+   - Run the following command to start EduStream:
    ```bash
    java VirtualClassroom
    ```
 
-5. **Ensure Python Script for Video Calls**:
-   Ensure that `video_call.py` is available in the same directory as the Java program. This script is used for initiating video calls.
+   The program will prompt you to select whether you are a **Teacher** or **Student** and then guide you through the respective menus.
+
+4. **Run the Video Call**:
+   - Ensure that the `video_call.py` script is available in the same directory as the Java application.
+   - The Python script will be executed when a video call is initiated.
+
+## 📝 Code Explanation
+
+- **VirtualClassroom.java**: This is the main class that handles the interaction for both teachers and students. It allows content uploading, video call initiation, and managing uploaded files.
+  
+- **video_call.py**: This Python script is called by the Java program to facilitate video call functionality.
+
+## 🌍 Contributing
+
+We welcome contributions! If you have suggestions, improvements, or bug fixes, feel free to **fork the repository**, make your changes, and submit a **pull request**. 
+
+### How to Contribute:
+- 🐛 **Report Bugs**: If you encounter any bugs, please create an issue in the GitHub repo.
+- 🚀 **Submit a Feature Request**: Have an idea to make EduStream even better? Share it with us!
+  
+## 📄 License
+
+This project is licensed under the **MIT License**.
 
 ---
 
-## **Usage**
-
-### **Teacher Menu**
-
-1. **Upload Content**: Upload files (e.g., lectures, assignments) to the classroom.
-2. **Start Video Call**: Enter a valid classroom code to start a video call.
-3. **Upload and Start Video Call**: Upload content and simultaneously start a video call with the classroom code.
-
-### **Student Menu**
-
-1. **View Uploaded Content**: Access and view files uploaded by the teacher.
-2. **Join a Video Call**: Enter a valid classroom code to join the live session.
-3. **View Content and Join Video Call**: View available content and then join the video call.
-
----
-
-## **Screenshots**
-
-### **Teacher Menu**
-![Teacher Menu](https://via.placeholder.com/600x300.png?text=Teacher+Menu)
-
-### **Student Menu**
-![Student Menu](https://via.placeholder.com/600x300.png?text=Student+Menu)
-
----
-
-## **File Management**
-
-- **Uploading Content**: Teachers can upload files to the classroom's `uploads` directory. The files are saved in the `uploads` folder, and their names are listed for easy access.
-- **Accessing Content**: Students can view uploaded content and open it using their default desktop applications.
-
----
-
-## **Python Integration**
-
-The system integrates with a Python script (`video_call.py`) for managing video calls. Ensure you have Python installed and the necessary dependencies for the video call functionality.
-
----
-
-## **Future Enhancements**
-
-- **Mobile App Integration**: Port the system to mobile platforms for on-the-go learning.
-- **Advanced File Management**: Implement versioning for uploaded files and more granular file access control.
-- **Real-time Chat**: Add a real-time chat feature during video calls for better interaction between teachers and students.
-- **Classroom Analytics**: Implement analytics to track student participation and content engagement.
-
----
-
-## **Contributing**
-
-We welcome contributions to **EdeStream**. If you would like to contribute, please follow these steps:
-
-1. **Fork** the repository.
-2. **Create a new branch** (`git checkout -b feature-branch`).
-3. **Commit your changes** (`git commit -am 'Add new feature'`).
-4. **Push to your branch** (`git push origin feature-branch`).
-5. **Create a Pull Request**.
-
-Your contributions help us make **EdeStream** better!
-
----
-
-## **Contact**
-
-For inquiries, feedback, or suggestions, feel free to reach out:
-
-- **Email**: [youremail@example.com](mailto:youremail@example.com)
-- **GitHub**: [YourGitHubProfile](https://github.com/YourUsername)
-
----
-
-## **License**
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-## **Demo**
-
-Check out this demo to see **EdeStream** in action:
-
-[![Watch the Demo](https://img.shields.io/badge/Demo-Click%20to%20watch-blue)](https://www.youtube.com/watch?v=demo)
-
----
-
-## **Additional Links**
-
-- [GitHub Repository](https://github.com/YourUsername/EdeStream)
-- [Project Wiki](https://github.com/YourUsername/EdeStream/wiki)
-
----
-
-Thank you for exploring **EdeStream**. We look forward to your contributions and feedback!
-```
-
-### Key Enhancements:
-
-1. **Professional Branding**: The README starts with badges (like project name, Java version, and license) for a professional touch.
-   
-2. **Structured Information**: The information is neatly divided into sections: Overview, Features, Installation, Usage, Future Enhancements, Contributing, and more.
-
-3. **Clear Instructions**: Installation and usage instructions are straightforward, ensuring ease of setup and operation.
-
-4. **Screenshots**: Placeholder sections for screenshots to visualize the teacher and student menus, making the readme visually appealing.
-
-5. **Python Integration**: Clear mention of the Python script integration for video calls, and instructions on ensuring Python is set up properly.
-
-6. **Contribution Guidelines**: Clear guidelines for potential contributors on how to participate in the development of the project.
-
-This professional README is designed to attract developers and users, providing them with the necessary details while maintaining a clean, structured appearance.
+### 💡 *Enjoy using EduStream! We're excited to have you onboard for an amazing learning experience.*
