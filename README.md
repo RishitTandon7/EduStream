@@ -1,7 +1,7 @@
 
 # **EdeStream: Virtual Classroom Management System**
 
-[![EdeStream Logo](https://img.shields.io/badge/Project-EdeStream-blue)](https://github.com/YourUsername/EdeStream)
+[![EdStream Logo](https://img.shields.io/badge/Project-EdeStream-blue)](https://github.com/YourUsername/EdeStream)
 [![Java Version](https://img.shields.io/badge/Java-11%2B-orange)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
